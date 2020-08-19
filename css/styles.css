@@ -1,0 +1,96 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #dbdbdb;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #8a8a8a;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #5c5c5c;
+}
+
+/* fonts */
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+/* color */
+..white {
+  color: #fff;
+}
+
+.black {
+  color: #0000;
+}
+
+.color-1 {
+  color: #2d4059;
+}
+
+.color-2 {
+  color: #ea5455;
+}
+
+.color-3 {
+  color: #decdc3;
+}
+
+.color-4 {
+  color: #e5e5e5;
+}
+
+/* main */
+/* isi html tag disini */
+
+/* id */
+/* isi id disini */
+#nav {
+}
+
+#footer {
+}
+
+/* class */
+/* isi class disini */
+
+/* media query */
+/* large screen */
+@media (max-width: 1200px) {
+}
+
+/* small screen */
+@media (max-width: 992px) {
+}
+
+/* tablet */
+@media (max-width: 768px) {
+}
+
+/* phone */
+@media (max-width: 576px) {
+}
