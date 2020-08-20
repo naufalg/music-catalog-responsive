@@ -283,12 +283,13 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  transition: 0.5s;
 }
 
 #input_submit:hover {
   background-color: #ff3e3e;
+  transform: scale(1.1);
   /* simple color transition on hover */
-  transition: background-color, 1s;
   cursor: pointer;
 }
 
