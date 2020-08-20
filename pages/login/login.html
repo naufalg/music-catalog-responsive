@@ -16,9 +16,8 @@
     />
 
     <!-- Title diganti sesuai page -->
-    <title>Home</title>
-    <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login</title>
+
     <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
@@ -32,22 +31,109 @@
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <!-- body -->
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <!-- navbar -->
-      <nav></nav>
+      <nav>
+        <a href="../../index.html" class="logo color-2 montserrat">3Cords</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu lato">
+          <li><a class="color-4" href="../news/news.html">News</a></li>
+          <li>
+            <a class="color-4" href="../search/search.html">Search</a>
+          </li>
+          <li>
+            <a class="color-4" href="../login/login.html">Profile</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <div class="spacer"></div>
 
     <!-- main -->
     <!-- isi contentnya disini -->
     <main>
-      <section></section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+              <h1 class="headline montserrat">LOGIN</h1>
+              <div class="input_container">
+                <i class="fas fa-envelope"></i>
+                <input
+                  placeholder="Email"
+                  type="email"
+                  name="Email"
+                  id="field_email"
+                  class="input_field lato"
+                />
+              </div>
+              <div class="input_container">
+                <i class="fas fa-lock"></i>
+                <input
+                  placeholder="Password"
+                  type="password"
+                  name="Password"
+                  id="field_password"
+                  class="input_field lato"
+                />
+              </div>
+              <a href="../profile/profile.html">
+                <button
+                  id="input_submit"
+                  class="input_field montserrat"
+                  type="submit"
+                >
+                  LOGIN
+                </button></a
+              >
+
+              <span id="forgot"
+                >Forgot <a href="#"> Username / Password ?</a></span
+              >
+              <span id="create_account">
+                <a href="#">Create your account ➡ </a>
+              </span>
+            </div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+      </div>
+
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#">Home</a>
+
+          <a href="../news/news.html">News</a>
+
+          <a href="#">About</a>
+
+          <a href="#">FAQ</a>
+
+          <a href="#">Contact</a>
+        </p>
+
+        <p>3Cords &copy; 2020</p>
+      </div>
+    </footer>
   </body>
 </html>
