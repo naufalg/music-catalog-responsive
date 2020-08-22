@@ -12,9 +12,9 @@
     ></script>
 
     <!-- Title diganti sesuai page -->
-    <title>Home</title>
+    <title>Profile</title>
     <!-- css -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./styles.css" />
     <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
@@ -32,18 +32,86 @@
   <!-- body -->
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <!-- navbar -->
-      <nav></nav>
+      <nav>
+        <a href="" class="logo color-2 montserrat">3Cords</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu lato">
+          <li><a class="color-4" href="./pages/news/news.html">News</a></li>
+          <li>
+            <a class="color-4" href="./pages/search/search.html">Search</a>
+          </li>
+          <li>
+            <a class="color-4" href="./pages/login/login.html">Profile</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
     <!-- main -->
     <!-- isi contentnya disini -->
-    <main>
-      <section></section>
-    </main>
+    <div class="container">
+      <div id="content1">
+        <div class="inner-content1">
+          <h3 class="montserrat">LOGOUT</h3>
+          <h2 class="lato">MY ACCOUNT</h2>
+          <h5 class="roboto">Welcome back, Barbara!</h5>
+        </div>
+      </div>
+
+      <div id="content2">
+        <h3 class="montserrat">MY ORDERS</h3>
+        <h4 class="roboto">You haven't placed any orders yet</h4>
+      </div>
+
+      <div id="content3">
+        <div><h3 class="montserrat">PRIMARY ADDRESS</h3></div>
+        <div><h4 class="lato">Barbara Palvin</h4></div>
+        <div>
+          <h5 class="lato">
+            2 Cranbourne Drive <br>Harpenden AL5 1RL <br>(01707) 117001
+          </h5>
+        </div>
+        <br>
+        <br>
+        <div class="button pd-7"><a href="#" class="button montserrat">EDIT ADDRESS</a></div>
+      </div>
+      <div id="content4">
+        <div>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div id="content5">
+        <div><h3 class="montserrat">NEWSLETTER</h3></div>
+        <div><h5 class="lato">Subscribe to receive updates, access to exclusive deals, and more.</h5></div>
+        <br>
+        <br>
+        <div class="button"><a href="#" class="button montserrat">SUBSCRIBE</a></div>
+        
+      </div>
+      <div id="content6">
+        <div><h3 class="montserrat">OUR POLICIES</h3></div>
+        <div class="pd-7"><a class="roboto" href="" text-decoration="none">Contact us</a></div>
+        <div class="pd-7"><a class="roboto" href="">Refund policy</a></div>
+        <div class="pd-7"><a class="roboto" href="">Privacy policy</a></div>
+        <div class="pd-7"><a class="roboto" href="">Terms of service</a></div>
+      </div>
+      <div id="content7">  
+        <div class="montserrat">3CORDS &#169 2020</div>
+      </div>
+      <div id="content8">
+      </div>
+    </div>
 
     <!-- footer -->
-    <footer></footer>
   </body>
 </html>
