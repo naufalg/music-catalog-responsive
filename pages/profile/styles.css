@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-family: "Roboto", sans-serif;
 }
 
-h3,h4,h5{
+h4,h5{
   padding-top: 25px;
 }
 
@@ -54,7 +54,7 @@ h3{
 
 .pd-7{
   padding: 7px;
-  margin-top: 5pxpx;
+  margin-top: 0;
 }
 
 a{
@@ -335,6 +335,11 @@ a{
   grid-area: content10;
 }
 
+.orders {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
 .button{
   margin-top: auto;
   align-content: center;
@@ -345,12 +350,29 @@ a{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-  font-size:12px;
+  font-size:0.8em;
+  font-weight: 600;
 	padding:3px 10px;
   text-decoration:none;
   width: 60%;
   text-align: center;
+  transition: 0.3s;
+}
 
+.button:hover {
+  box-shadow: 0px 0px 10px #ea5455;
+}
+
+.logout {
+  padding: 10%;
+  margin: 2vw 0 1vw 0;
+  background-color: #eacf54;
+  color: black;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  max-height: 30%;
+  text-decoration: none;
 }
 
 /* media query */

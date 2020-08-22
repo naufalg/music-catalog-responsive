@@ -299,8 +299,16 @@ a{
   text-decoration: underline;
 }
 
+
+
+/* search-results */
+.heading{
+  letter-spacing: 0.3em;
+}
+
+
 .search-results{
-  padding: 2em;
+  padding: 1.5em;
   text-align: center;
   font-weight: 400;
   font-size: 2em;
@@ -324,12 +332,25 @@ a{
 .album-img{
   height: 200px;
   width: 200px;
+  transition: 0.5s;
 }
+
+.album-img:hover{
+  box-shadow: 0px 0px 15px #ea5455;
+}
+
+.hyperlink{
+  max-width: 100%;
+  font-size: 1.3em;
+  transition: 0.2s;
+}
+
 
 .hyperlink:hover{
   color: white;
   background-color: #ea5455;
   border-radius: 50px;
+  box-shadow: 0px 0px 20px #ea5455;
 }
 
 .
