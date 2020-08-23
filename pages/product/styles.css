@@ -423,15 +423,31 @@ a{
 /* large screen */
 @media (max-width: 1200px) {
 }
+.container{
+  padding: 8em;
+  margin: auto;
+}
 
 /* small screen */
 @media (max-width: 992px) {
+}
+.container{
+  padding: 8em;
+  margin: auto;
 }
 
 /* tablet */
 @media (max-width: 768px) {
 }
+.container{
+  padding: 5em;
+  margin: auto;
+}
 
 /* phone */
 @media (max-width: 576px) {
+}
+.container{
+  padding: 5em;
+  margin: auto;
 }
