@@ -251,7 +251,7 @@ a{
 
 .container {
   display: grid;
-  height: 100vh;
+  height: 150vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 400px 250px 200px 200px ;
   grid-template-areas:
@@ -278,6 +278,7 @@ a{
   align-content: space-around;
   padding: var(--main-padding);
   margin-top: 60px;
+
 }
 
 #content2 {
@@ -469,6 +470,21 @@ a{
 /* media query */
 /* large screen */
 @media (max-width: 1200px) {
+  .container {
+    height: 150vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto ;
+    grid-template-areas:
+      
+      "content1"
+      "content2"
+      "content3"
+      "content4"
+      "content5"
+      "content6"
+      ;
+  }
+
 }
 
 /* small screen */
@@ -487,6 +503,13 @@ a{
       "content6"
       ;
   }
+  .centering-content-device{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 /* tablet */
@@ -503,12 +526,20 @@ a{
       "content4"
       "content5"
       "content6"
-      ;
-}
+      ;}
+  .centering-content-device{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      
+    }
 
 /* phone */
 @media only screen and (max-width: 576px) {
   .container {
+    margin-left: 10px;
     height: 200vh;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto ;
@@ -521,5 +552,11 @@ a{
       "content5"
       "content6"
       ;
+  }
+  .centering-content-device{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
